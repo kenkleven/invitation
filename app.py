@@ -94,7 +94,7 @@ st.markdown(
 
     <!-- Bouton WhatsApp centré en dessous -->
     <div class="whatsapp-button">
-        <a href="https://wa.me/24107779633" target="_blank">💬 WhatsApp</a>
+        <a href="https://wa.me/24107779633" target="_blank">Cliquez sur WhatsApp</a>
     </div>
     """,
     unsafe_allow_html=True
