@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import base64
+import time
 
 # Chargement de l'image de fond
 background_image = Image.open("image0.jpg")
@@ -17,6 +18,11 @@ bg_base64 = get_base64(background_image)
 # Configuration de la page
 st.set_page_config(page_title="Promotion 11 Bravo", layout="wide")
 
+# 🎈 Animation des ballons pendant 3 secondes
+with st.empty():
+    st.balloons()
+    time.sleep(3)
+    
 # HTML + CSS complet
 st.markdown(
     f"""
