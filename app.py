@@ -21,7 +21,7 @@ st.set_page_config(page_title="Promotion 11 Bravo", layout="wide")
 # 🎈 Animation des ballons pendant 3 secondes
 with st.empty():
     st.balloons()
-    time.sleep(3)
+    #time.sleep(3)
     
 # HTML + CSS complet
 st.markdown(
