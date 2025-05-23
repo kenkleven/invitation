@@ -4,7 +4,7 @@ import base64
 import time
 
 # Chargement de l'image de fond
-background_image = Image.open("image0.jpg")
+background_image = Image.open("image1.jpg")
 
 # Conversion image fond en base64
 def get_base64(image):
